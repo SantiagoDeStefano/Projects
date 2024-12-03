@@ -1,0 +1,26 @@
+#container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background:rgba(14, 201, 45, 0.61);
+    max-width: 400px;
+    margin: auto;
+    border-radius: 5px;
+}
+h1 {
+    padding-top: 15px;
+    color:rgb(4, 94, 16);
+}
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 25px 10px 25px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: rgb(153, 241, 153);
+    color:rgb(4, 94, 16);
+}
+#random_password {
+    font-size: 1.5rem;
+}
