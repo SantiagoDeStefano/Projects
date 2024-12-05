@@ -1,0 +1,23 @@
+body {
+    background-image: url(marid.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+#clock-container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;    
+}
+#clock {
+    font-size: 7rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(119, 64, 1);
+    backdrop-filter: blur(10px);
+    width: 100%;
+}
