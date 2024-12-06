@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#calculator {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0, 0.788);
+    max-width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#display {
+    width: 100%;
+    padding:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:5rem;
+    text-align: left;
+    border:none;
+    background-color: rgb(68, 65, 65);
+    color: white;
+}
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(41, 38, 38);
+    color:white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(71, 65, 65);
+}
+button:active {
+    background-color: rgb(95, 86, 86);
+}
+.operator-button {
+    background-color: rgb(255, 166, 0);
+}
+.operator-button:hover {
+    background-color: rgb(255, 187, 61);
+}
+.operator-button:active {
+    background-color: rgb(255, 207, 117);
+}
