@@ -1,0 +1,77 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: gainsboro;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weatherForm {
+    margin: 20px;
+}
+.cityInput {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    padding:10px 10px;
+    border-radius: 5px;
+    border: solid 2px rgb(97, 97, 97);
+}
+button[type="submit"] {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 11px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: solid 2px rgb(97, 97, 97);
+    font-weight: bold;
+    background-color: rgb(185, 217, 245);
+    margin-left: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: rgb(161, 181, 199);
+}
+button[type="submit"]:active {
+    background-color: rgb(132, 154, 173);
+}
+.card {
+    background: linear-gradient(180deg, rgb(128, 201, 235), rgb(170, 204, 224));
+    padding: 45px 40px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid rgb(90, 114, 124);
+}
+h1 {
+    font-size: 3.5rem;
+    margin-top: 0px;
+}
+p {
+    font-size: 1.5rem;
+    margin: 5px 0px;
+}
+.cityDisplay, .tempDisplay {
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-size: 2.8rem;
+}
+.humidityDisplay {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    margin-bottom: 25px;
+}
+.descDisplay {
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-bottom: 25px;
+}
+.weatherEmoji {
+    margin-bottom: 25px;
+    font-size: 10rem;
+}
+.errorDisplay {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
